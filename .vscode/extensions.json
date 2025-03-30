@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "firsttris.vscode-jest-runner",
+    "editorconfig.editorconfig",
+    "sonarsource.sonarlint-vscode",
+    "zixuanchen.vitest-explorer"
+  ]
+}

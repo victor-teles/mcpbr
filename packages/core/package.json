@@ -1,0 +1,56 @@
+{
+  "name": "@mcpbr/core",
+  "version": "1.0.0",
+  "description": "Core functions for mcpbr",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "require": {
+      "types": "./dist/index.d.cts",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "vitest run --passWithNoTests",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --sourcemap",
+    "dev": "tsc --watch",
+    "format": "biome check --formatter-enabled=true  --linter-enabled=false --organize-imports-enabled=true --write .",
+    "lint": "biome check src --formatter-enabled=false --organize-imports-enabled=true --write .",
+    "ci": "biome ci"
+  },
+  "author": {
+    "name": "Victor Mesquita",
+    "email": "contato@victormesquita.dev"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/victor-teles/mcpbr#readme",
+  "bugs": "https://github.com/victor-teles/mcpbr/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-teles/mcpbr.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "typescript",
+    "utils",
+    "mcpay"
+  ],
+  "dependencies": {
+    "zod": "^3.24.2",
+    "zod-to-json-schema": "^3.24.5",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "tinyrainbow": "^2.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "@mcpbr/openpix",
+  "version": "1.0.0",
+  "description": "Model context protocol for OpenPix API",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "require": {
+      "types": "./dist/index.d.cts",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "vitest run --passWithNoTests",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --sourcemap",
+    "dev": "tsc --watch",
+    "format": "biome check --formatter-enabled=true  --linter-enabled=false --organize-imports-enabled=true --write .",
+    "lint": "biome check src --formatter-enabled=false --organize-imports-enabled=true --write .",
+    "ci": "biome ci",
+    "debug-mcp": "mcp-inspector node ./dist/index.js"
+  },
+  "author": {
+    "name": "Victor Mesquita",
+    "email": "contato@victormesquita.dev"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/victor-teles/mcpbr#readme",
+  "bugs": "https://github.com/victor-teles/mcpbr/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-teles/mcpbr.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "typescript",
+    "openpix",
+    "openpix.js",
+    "mcp",
+    "model context protocol"
+  ],
+  "dependencies": {
+    "@mcpay/core": "workspace:*",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.6.0"
+  }
+}

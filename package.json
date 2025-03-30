@@ -1,0 +1,59 @@
+{
+  "name": "@mcpbr/monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for Model Context Protocol for brazillian services",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "turbo run lint",
+    "ci": "turbo run ci",
+    "dev": "turbo run dev",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "format": "turbo run format",
+    "build": "turbo run build",
+    "new-version": "changeset",
+    "publish-packages": "turbo run build ci && pnpm run test && changeset version && changeset publish",
+    "debug-mcp": "turbo run debug-mcp"
+  },
+  "author": {
+    "name": "Victor Mesquita",
+    "email": "contato@victormesquita.dev"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/victor-teles/mcpbr#readme",
+  "bugs": "https://github.com/victor-teles/mcpbr/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-teles/mcpbr.git"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "typescript",
+    "mcp",
+    "mcpay",
+    "sdk",
+    "model context protocol"
+  ],
+  "engines": {
+    "node": ">=21"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.12.0",
+    "husky": "^9.1.7",
+    "tsup": "^8.3.6",
+    "turbo": "2.3.4",
+    "typescript": "^5.8.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.0.4",
+    "vitest-mock-extended": "^2.0.2",
+    "vitest-sonar-reporter": "^2.0.0"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.12"
+  },
+  "packageManager": "pnpm@9.15.5"
+}
