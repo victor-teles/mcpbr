@@ -64,9 +64,7 @@ export const handler = async (params: Record<string, unknown>, args: Record<stri
   }
 }
 
-const createCustomerTool: CoreTool = {
+export const createCustomerTool: CoreTool = {
   definition,
   handler,
 }
-
-export { createCustomerTool }
