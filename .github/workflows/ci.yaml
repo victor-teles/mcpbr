@@ -20,10 +20,10 @@ jobs:
         with:
           version: 9.15.5
 
-      - name: Use Node.js 20
+      - name: Use Node.js 21
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 21
           cache: 'pnpm'
 
       - run: pnpm install
