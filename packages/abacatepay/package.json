@@ -1,6 +1,6 @@
 {
   "name": "@mcpbr/abacatepay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Model context protocol for AbacatePay API",
   "type": "module",
   "main": "./dist/index.cjs",
