@@ -18,8 +18,8 @@
 ## Diretório
 
 
-### 💰 <a name="payment"></a>Pagamento
-Principais serviços de pagamento brasileiros.
+### 💰 <a name="payment"></a>Pagamentos
+Principais serviços de pagamentos brasileiros.
 
 - [Abacate pay](https://github.com/victor-teles/mcpbr/blob/main/packages/abacatepay/readme.md)
 - [Pagar me](https://github.com/victor-teles/mcpbr/blob/main/packages/pagarme/readme.md)
