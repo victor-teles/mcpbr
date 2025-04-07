@@ -1,4 +1,4 @@
-import { CoreTool } from '@mcpay/core'
+import { CoreTool } from '@mcpbr/core'
 import { approvePaymentTool } from './approve-payment'
 import { createChargeTool } from './create-charge'
 import { createChargeRefundTool } from './create-charge-refund'

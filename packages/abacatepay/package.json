@@ -1,5 +1,5 @@
 {
-  "name": "@victor-teles/mcpay",
+  "name": "@mcpbr/abacatepay",
   "version": "1.0.0",
   "description": "Model context protocol for AbacatePay API",
   "type": "module",
@@ -23,7 +23,8 @@
     "format": "biome check --formatter-enabled=true  --linter-enabled=false --organize-imports-enabled=true --write .",
     "lint": "biome check src --formatter-enabled=false --organize-imports-enabled=true --write .",
     "ci": "biome ci",
-    "debug-mcp": "mcp-inspector node ./dist/index.js"
+    "debug-mcp": "mcp-inspector node ./dist/index.js",
+    "gen:docs": "ts-readme ./src/tools/**/*.ts"
   },
   "author": {
     "name": "Victor Mesquita",
@@ -51,7 +52,7 @@
     "model context protocol"
   ],
   "dependencies": {
-    "@mcpay/core": "workspace:*",
+    "@mcpbr/core": "workspace:*",
     "zod": "^3.24.2"
   },
   "devDependencies": {

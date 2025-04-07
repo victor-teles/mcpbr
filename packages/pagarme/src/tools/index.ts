@@ -1,4 +1,4 @@
-import { CoreTool } from '@mcpay/core'
+import { CoreTool } from '@mcpbr/core'
 import { createCustomerTool } from './create-customer'
 import { getCustomerTool } from './get-customer'
 import { updateCustomerTool } from './update-customer'

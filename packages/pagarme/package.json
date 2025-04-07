@@ -51,7 +51,7 @@
     "model context protocol"
   ],
   "dependencies": {
-    "@mcpay/core": "workspace:*",
+    "@mcpbr/core": "workspace:*",
     "zod": "^3.24.2"
   },
   "devDependencies": {

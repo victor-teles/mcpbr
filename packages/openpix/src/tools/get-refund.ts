@@ -1,4 +1,4 @@
-import { Tool, toJsonSchema } from '@mcpay/core'
+import { Tool, toJsonSchema } from '@mcpbr/core'
 import { z } from 'zod'
 import { baseUrl } from '../meta'
 const GetRefundSchema = z.object({

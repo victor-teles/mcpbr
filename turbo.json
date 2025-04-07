@@ -16,9 +16,7 @@
     "lint": {},
     "ci": {},
     "debug-mcp": {},
-    "format": {
-
-    },
+    "format": {},
     "dev": {
       "cache": false
     }

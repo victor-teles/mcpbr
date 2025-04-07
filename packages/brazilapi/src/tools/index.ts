@@ -1,4 +1,4 @@
-import { CoreTool } from '@mcpay/core'
+import { CoreTool } from '@mcpbr/core'
 import { getBankTool } from './get-bank'
 import { getCepTool } from './get-cep'
 import { getCitiesTool } from './get-cities'

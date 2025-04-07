@@ -1,4 +1,4 @@
-import { CoreTool, Tool, toJsonSchema } from '@mcpay/core'
+import { CoreTool, Tool, toJsonSchema } from '@mcpbr/core'
 import { z } from 'zod'
 import { meta } from '../meta'
 

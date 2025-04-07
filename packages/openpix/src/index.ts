@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { mcpServerFactory } from '@mcpay/core'
+import { mcpServerFactory } from '@mcpbr/core'
 import { meta } from './meta'
 import { tools } from './tools'
 

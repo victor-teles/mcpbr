@@ -15,6 +15,17 @@
 <br />
 
 
-## Instalação
+## Diretório
 
-Visite o site https://mcpbr.com para ver as instruções de instalação de cada MCP.
+
+### 💰 <a name="payment"></a>Pagamento
+Principais serviços de pagamento brasileiros.
+
+- [Abacate pay](https://github.com/victor-teles/mcpbr/blob/main/packages/abacatepay/readme.md)
+- [Pagar me](https://github.com/victor-teles/mcpbr/blob/main/packages/pagarme/readme.md)
+- [OpenPix](https://github.com/victor-teles/mcpbr/blob/main/packages/openpix/readme.md)
+
+### 🌐 <a name="utils"></a>Utilidades
+
+- [BrasilAPI](https://github.com/victor-teles/mcpbr/blob/main/packages/brazilapi/readme.md)
+
