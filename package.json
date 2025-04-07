@@ -8,7 +8,7 @@
     "lint": "turbo run lint",
     "ci": "turbo run ci",
     "dev": "turbo run dev",
-    "test": "vitest run",
+    "test": "turbo run test",
     "coverage": "vitest run --coverage",
     "format": "turbo run format",
     "build": "turbo run build",
